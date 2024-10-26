@@ -9,10 +9,10 @@
   },
   "dependencies": {
     "@astrojs/mdx": "^3.0.1",
-    "@astrojs/rss": "^4.0.6",
     "@astrojs/react": "^3.4.0",
+    "@astrojs/rss": "^4.0.6",
     "@astrojs/sitemap": "^3.1.5",
-    "@astrojs/tailwind": "^5.1.0",
+    "@astrojs/tailwind": "^5.1.2",
     "astro": "^4.9.3",
     "astro-auto-import": "^0.4.2",
     "astro-font": "^0.0.81",
@@ -40,7 +40,7 @@
     "sass": "^1.77.4",
     "sharp": "0.33.4",
     "tailwind-bootstrap-grid": "^5.1.0",
-    "tailwindcss": "^3.4.4",
+    "tailwindcss": "^3.4.14",
     "typescript": "5.4.5"
   }
 }

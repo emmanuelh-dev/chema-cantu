@@ -24,48 +24,54 @@ if (theme.fonts.font_family.secondary) {
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
+    darkMode: ["class"],
+    content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
   theme: {
-    screens: {
-      sm: "540px",
-      md: "768px",
-      lg: "1024px",
-      xl: "1280px",
-      "2xl": "1536px",
-    },
-    container: {
-      center: true,
-      padding: "2rem",
-    },
-    extend: {
-      colors: {
-        text: theme.colors.default.text_color.default,
-        light: theme.colors.default.text_color.light,
-        dark: theme.colors.default.text_color.dark,
-        primary: theme.colors.default.theme_color.primary,
-        secondary: theme.colors.default.theme_color.secondary,
-        body: theme.colors.default.theme_color.body,
-        border: theme.colors.default.theme_color.border,
-        "theme-light": theme.colors.default.theme_color.theme_light,
-        "theme-dark": theme.colors.default.theme_color.theme_dark,
-      },
-      fontSize: {
-        base: font_base + "px",
-        h1: h1 + "rem",
-        "h1-sm": h1 * 0.8 + "rem",
-        h2: h2 + "rem",
-        "h2-sm": h2 * 0.8 + "rem",
-        h3: h3 + "rem",
-        "h3-sm": h3 * 0.8 + "rem",
-        h4: h4 + "rem",
-        h5: h5 + "rem",
-        h6: h6 + "rem",
-      },
-      fontFamily: {
-        primary: [fontPrimary, fontPrimaryType],
-        secondary: [fontSecondary, fontSecondaryType],
-      },
-    },
+  	screens: {
+  		sm: '540px',
+  		md: '768px',
+  		lg: '1024px',
+  		xl: '1280px',
+  		'2xl': '1536px'
+  	},
+  	container: {
+  		center: 'true',
+  		padding: '2rem'
+  	},
+  	extend: {
+  		colors: {
+  			text: 'theme.colors.default.text_color.default',
+  			light: 'theme.colors.default.text_color.light',
+  			dark: 'theme.colors.default.text_color.dark',
+  			primary: 'theme.colors.default.theme_color.primary',
+  			secondary: 'theme.colors.default.theme_color.secondary',
+  			body: 'theme.colors.default.theme_color.body',
+  			border: 'theme.colors.default.theme_color.border',
+  			'theme-light': 'theme.colors.default.theme_color.theme_light',
+  			'theme-dark': 'theme.colors.default.theme_color.theme_dark'
+  		},
+  		fontSize: {
+  			base: 'font_base + "px',
+  			h1: 'h1 + "rem',
+  			'h1-sm': 'h1 * 0.8 + "rem',
+  			h2: 'h2 + "rem',
+  			'h2-sm': 'h2 * 0.8 + "rem',
+  			h3: 'h3 + "rem',
+  			'h3-sm': 'h3 * 0.8 + "rem',
+  			h4: 'h4 + "rem',
+  			h5: 'h5 + "rem',
+  			h6: 'h6 + "rem'
+  		},
+  		fontFamily: {
+  			primary: [fontPrimary, fontPrimaryType],
+  			secondary: [fontSecondary, fontSecondaryType]
+  		},
+  		borderRadius: {
+  			lg: 'var(--radius)',
+  			md: 'calc(var(--radius) - 2px)',
+  			sm: 'calc(var(--radius) - 4px)'
+  		}
+  	}
   },
   plugins: [
     require("@tailwindcss/typography"),
@@ -80,5 +86,6 @@ module.exports = {
         5: "3.5rem",
       },
     }),
-  ],
+      require("tailwindcss-animate")
+],
 };

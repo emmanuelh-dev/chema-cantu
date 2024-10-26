@@ -1,161 +1,174 @@
 ---
-import Base from "@/layouts/Base.astro";
+import Base from '@/layouts/Base.astro';
 ---
 
 <Base>
-<div class="text-white bg-[#141414]">
-  <!-- Agrega un llamado a la acción, el nombre de la compañía y texto del botón -->
-  <header
-    class='bg-cover bg-no-repeat bg-gray-400 bg-blend-multiply'
-    style="background-image:url('/images/hero-fitness-image.jpg')"
-  >
-    <div class='px-4 mx-auto max-w-screen-xl text-center py-36 text-white'>
-      <h1 class='font-extrabold text-9xl tracking-wide mb-4 uppercase italic text-white'>
-        Alcanza tu mejor versión
-      </h1>
-      <button class='yellowBG p-2 uppercase text-black font-bold'>
-        ¡Empieza hoy!
-      </button>
-    </div>
-  </header>
-
-  <section class='py-12'>
-    <div class='grid grid-cols-2 p-4'>
-      <div>
-        <h1 class='text-5xl italic max-w-xs yellowText pb-8'>
-          Sobre tu Equipo de Apoyo
+  <div class='text-white bg-[#141414] max-w-screen overflow-hidden'>
+    <!-- Agrega un llamado a la acción, el nombre de la compañía y texto del botón -->
+    <header
+      class='bg-cover bg-no-repeat bg-gray-400 bg-blend-multiply'
+      style="background-image:url('/images/hero-fitness-image.jpg')"
+    >
+      <div class='px-4 mx-auto max-w-screen-xl text-center py-36 text-white'>
+        <h1
+          class='font-extrabold text-4xl lg:text-9xl tracking-wide mb-4 uppercase italic text-white'
+        >
+          Alcanza tu mejor versión
         </h1>
-        <p class='text-white max-w-sm'>
-          Desde el 2001, hemos ayudado a personas de todas las edades a lograr sus metas de salud y bienestar. Aquí no solo entrenas, sino que encuentras apoyo y orientación en cada paso de tu camino.
-        </p>
-        <p class='text-white mt-8 underline'><a href='/'>Conoce más</a></p>
+        <button class='yellowBG p-2 uppercase text-black font-bold'>
+          ¡Empieza hoy!
+        </button>
       </div>
-      <div class='grid grid-cols-2'>
-        <img
-          src='/images/gym-instructor.jpg'
-          alt='Entrenador personal'
-          class='rounded-md object-cover w-48'
-          width='600'
-          height='400'
-          loading='lazy'
-          decoding='async'
-        />
-        <img
-          src='/images/gym-femaleinstructor.jpg'
-          alt='Entrenadora personal'
-          class='rounded-md object-cover w-48 pt-8'
-          width='600'
-          height='400'
-          loading='lazy'
-          decoding='async'
-        />
-      </div>
-    </div>
-  </section>
+    </header>
 
-  <section class='py-12 text-center'>
-    <h1 class='yellowText text-5xl italic uppercase'>Lo que podemos hacer por ti</h1>
-    <p class='text-white'>
-      Estamos aquí para diseñar un plan a tu medida y acompañarte en tu progreso
-    </p>
-    <div class='grid grid-cols-1 md:grid-cols-3'>
-      <div
-        class='py-48 bg-cover m-8 bg-gray-700 bg-blend-multiply'
-        style='background-image:url(/images/personal-trainer.jpg)'
-      >
-        <h2 class='text-white uppercase text-4xl italic'>Entrenamiento Personalizado</h2>
-      </div>
-      <div
-        class='py-48 bg-cover m-8 bg-gray-700 bg-blend-multiply'
-        style='background-image:url(/images/pesas.jpg)'
-      >
-        <h2 class='text-white uppercase text-4xl italic'>
-          Clases Grupales para Motivarte
-        </h2>
-      </div>
-      <div
-        class='py-48 bg-cover m-8 bg-gray-700 bg-blend-multiply'
-        style='background-image:url(/images/doctor.jpg)'
-      >
-        <h2 class='text-white uppercase text-4xl italic'>
-          Seguimiento y Apoyo Constante
-        </h2>
-      </div>
-    </div>
-  </section>
-
-  <section class='py-12'>
-    <h1 class='yellowText text-5xl italic uppercase text-center'>
-      Historias de Transformación
-    </h1>
-    <div class='grid grid-cols-1 md:grid-cols-3'>
-      <div class='m-4'>
-        <img
-          src='/images/gym-femaleinstructor.jpg'
-          alt='Testimonio'
-          class='object-cover w-full h-52'
-        />
-        <div class='yellowBG p-8 text-black'>
-          <p class='pb-4 font-bold'>
-            "Gracias al apoyo personalizado, logré superar mis metas y sentirme mejor que nunca."
+    <section class='py-12'>
+      <div class='grid lg:grid-cols-2 p-4 mx-auto max-w-screen-xl'>
+        <div>
+          <h1 class='text-5xl italic max-w-xs yellowText pb-8'>
+            Sobre mi
+          </h1>
+          <p class='text-white max-w-sm'>
+            Mi nombre es Chema Cantú Personal Trainer, y soy un entrenador personal con una trayectoria de mas de 10 años. Hemos ayudado a personas de todas las edades a lograr sus metas de salud y bienestar. Aquí no solo entrenas, sino que encuentras apoyo y orientación en cada paso de tu camino.
           </p>
-          <small>Andrea Gómez, 31</small>
+          <p class='text-white mt-8 underline'><a href='/'>Conoce más</a></p>
+        </div>
+        <div class='grid grid-cols-2 max-sm:mt-12'>
+          <img
+            src='/images/gym-instructor.jpg'
+            alt='Entrenador personal'
+            class='rounded-md object-cover w-48'
+            width='600'
+            height='400'
+            loading='lazy'
+            decoding='async'
+          />
+          <img
+            src='/images/gym-femaleinstructor.jpg'
+            alt='Entrenadora personal'
+            class='rounded-md object-cover w-48 pt-8'
+            width='600'
+            height='400'
+            loading='lazy'
+            decoding='async'
+          />
         </div>
       </div>
-      <div class='m-4'>
-        <img
-          src='/images/testim1.jpg'
-          alt='Testimonio'
-          class='object-cover w-full h-52 object-top'
-        />
-        <div class='yellowBG p-8 text-black'>
-          <p class='pb-4 font-bold'>
-            "El seguimiento constante hizo toda la diferencia para alcanzar mis objetivos."
-          </p>
-          <small>Diego Martínez, 28</small>
-        </div>
-      </div>
-      <div class='m-4'>
-        <img
-          src='/images/gym-instructor.jpg'
-          alt='Testimonio'
-          class='object-cover w-full h-52'
-        />
-        <div class='yellowBG p-8 text-black'>
-          <p class='pb-4 font-bold'>
-            "Aquí encontré no solo un entrenador, sino un equipo comprometido con mi progreso."
-          </p>
-          <small>Lucas Torres, 44</small>
-        </div>
-      </div>
-    </div>
-</section>
+    </section>
 
-  <footer
-    class='bg-cover bg-no-repeat bg-gray-700 bg-blend-multiply'
-    style="background-image:url('/images/training.jpg')"
-  >
-    <div class='mx-auto max-w-screen-xl'>
-      <h1
-        class='font-extrabold text-5xl yellowText tracking-wide uppercase italic p-36 max-w-xl'
-      >
-        Hablemos sobre tus metas
+    <section class='py-12 text-center'>
+      <h1 class='yellowText text-3xl lg:text-5xl italic uppercase'>
+        Lo que podemos hacer por ti
       </h1>
-      <div class='yellowBG grid grid-cols-1 md:grid-cols-3'>
-        <div class='p-12'>
-          <h1 class='uppercase text-2xl italic'>Dirección Postal</h1>
-          <p>123 Calle Cualquiera, Ciudad Cualquiera, ST 34565</p>
+      <p class='text-white'>
+        Estamos aquí para diseñar un plan a tu medida y acompañarte en tu
+        progreso
+      </p>
+      <div class='grid grid-cols-1 md:grid-cols-3'>
+        <div
+          class='py-48 bg-cover bg-center m-8 bg-gray-700 bg-blend-multiply'
+          style='background-image:url(/images/personal-trainer.jpg)'
+        >
+          <h2 class='text-white uppercase text-3xl lg:text-4xl italic'>
+            Entrenamiento Personalizado
+          </h2>
         </div>
-        <div class='p-12'>
-          <h1 class='uppercase text-2xl italic'>Correo Electrónico</h1>
-          <p>hello@reallygreatsite.com</p>
+        <div
+          class='py-48 bg-cover bg-center m-8 bg-gray-700 bg-blend-multiply'
+          style='background-image:url(/images/pesas.jpg)'
+        >
+          <h2 class='text-white uppercase text-3xl lg:text-4xl italic'>
+            Seguimiento y Apoyo Constante
+          </h2>
         </div>
-        <div class='p-12'>
-          <h1 class='uppercase text-2xl italic'>Número Telefónico</h1>
-          <p>(123) 456-7890</p>
+        <div
+          class='py-48 bg-cover bg-center m-8 bg-gray-700 bg-blend-multiply'
+          style='background-image:url(/images/doctor.jpg)'
+        >
+          <h2 class='text-white uppercase text-3xl lg:text-4xl italic'>
+            Seguimiento y Apoyo Constante
+          </h2>
         </div>
       </div>
-    </div>
-  </footer>
-</div>
+    </section>
+
+    <section class='py-12'>
+      <h1 class='yellowText text-3xl lg:text-5xl italic uppercase text-center'>
+        Historias de Transformación
+      </h1>
+      <div class='grid grid-cols-1 md:grid-cols-3'>
+        <div class='m-4'>
+          <img
+            src='/images/gym-femaleinstructor.jpg'
+            alt='Testimonio'
+            class='object-cover w-full h-52'
+          />
+          <div class='yellowBG p-8 text-black'>
+            <p class='pb-4 font-bold'>
+              "Gracias al apoyo personalizado, logré superar mis metas y
+              sentirme mejor que nunca."
+            </p>
+            <small>Andrea Gómez, 31</small>
+          </div>
+        </div>
+        <div class='m-4'>
+          <img
+            src='/images/testim1.jpg'
+            alt='Testimonio'
+            class='object-cover w-full h-52 object-top'
+          />
+          <div class='yellowBG p-8 text-black'>
+            <p class='pb-4 font-bold'>
+              "El seguimiento constante hizo toda la diferencia para alcanzar
+              mis objetivos."
+            </p>
+            <small>Diego Martínez, 28</small>
+          </div>
+        </div>
+        <div class='m-4'>
+          <img
+            src='/images/gym-instructor.jpg'
+            alt='Testimonio'
+            class='object-cover w-full h-52'
+          />
+          <div class='yellowBG p-8 text-black'>
+            <p class='pb-4 font-bold'>
+              "Aquí encontré no solo un entrenador, sino un equipo comprometido
+              con mi progreso."
+            </p>
+            <small>Lucas Torres, 44</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer
+      class='bg-cover bg-no-repeat bg-gray-700 bg-blend-multiply'
+      style="background-image:url('/images/training.jpg')"
+    >
+      <div class='mx-auto max-w-screen-xl'>
+        <h1
+          class='font-extrabold text-5xl yellowText tracking-wide uppercase italic py-36 px-6 max-w-xl'
+        >
+          Hablemos sobre tus metas
+        </h1>
+        <div class='yellowBG grid grid-cols-1 md:grid-cols-2'>
+          <div class='p-12'>
+            <h1 class='uppercase text-2xl italic'>Correo Electrónico</h1>
+            <p>hello@reallygreatsite.com</p>
+          </div>
+          <div class='p-12 flex flex-col gap-4'>
+            <h1 class='uppercase text-2xl italic'>Escribeme por whatsapp</h1>
+            <p>+52 81 2492 8892</p>
+            <div>
+              <a
+                href='https://wa.me/528124928892'
+                target='_blank'
+                class='text-white bg-black py-3 px-4 mt-4'>Haz click aquí</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
 </Base>

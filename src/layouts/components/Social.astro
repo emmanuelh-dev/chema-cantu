@@ -73,21 +73,21 @@ const {
 <ul class={className}>
   {
     facebook && (
-      <li class="inline-block">
+      <li>
         <a
           aria-label="facebook"
           href={facebook}
           target="_blank"
           rel="noopener noreferrer nofollow"
         >
-          <IoLogoFacebook />
+          <IoLogoFacebook className="text-[#0866ff]" />
         </a>
       </li>
     )
   }
   {
     twitter && (
-      <li class="inline-block">
+      <li>
         <a
           aria-label="twitter"
           href={twitter}
@@ -101,7 +101,7 @@ const {
   }
   {
     mastodon && (
-      <li class="inline-block">
+      <li>
         <a
           aria-label="mastodon"
           href={mastodon}
@@ -115,49 +115,49 @@ const {
   }
   {
     instagram && (
-      <li class="inline-block">
+      <li>
         <a
           aria-label="instagram"
           href={instagram}
           target="_blank"
           rel="noopener noreferrer nofollow"
         >
-          <IoLogoInstagram />
+          <IoLogoInstagram className="text-[#ec092d]"/>
         </a>
       </li>
     )
   }
   {
     youtube && (
-      <li class="inline-block">
+      <li>
         <a
           aria-label="youtube"
           href={youtube}
           target="_blank"
           rel="noopener noreferrer nofollow"
         >
-          <IoLogoYoutube />
+          <IoLogoYoutube className="text-red-500" />
         </a>
       </li>
     )
   }
   {
     linkedin && (
-      <li class="inline-block">
+      <li>
         <a
           aria-label="linkedin"
           href={linkedin}
           target="_blank"
           rel="noopener noreferrer nofollow"
         >
-          <IoLogoLinkedin />
+          <IoLogoLinkedin className="text-blue-500" />
         </a>
       </li>
     )
   }
   {
     github && (
-      <li class="inline-block">
+      <li>
         <a
           aria-label="github"
           href={github}
@@ -171,7 +171,7 @@ const {
   }
   {
     gitlab && (
-      <li class="inline-block">
+      <li>
         <a
           aria-label="gitlab"
           href={gitlab}
@@ -185,7 +185,7 @@ const {
   }
   {
     discord && (
-      <li class="inline-block">
+      <li>
         <a
           aria-label="discord"
           href={discord}
@@ -199,7 +199,7 @@ const {
   }
   {
     slack && (
-      <li class="inline-block">
+      <li>
         <a
           aria-label="slack"
           href={slack}
@@ -213,7 +213,7 @@ const {
   }
   {
     medium && (
-      <li class="inline-block">
+      <li>
         <a
           aria-label="medium"
           href={medium}
@@ -227,7 +227,7 @@ const {
   }
   {
     codepen && (
-      <li class="inline-block">
+      <li>
         <a
           aria-label="codepen"
           href={codepen}
@@ -241,7 +241,7 @@ const {
   }
   {
     bitbucket && (
-      <li class="inline-block">
+      <li>
         <a
           aria-label="bitbucket"
           href={bitbucket}
@@ -255,7 +255,7 @@ const {
   }
   {
     dribbble && (
-      <li class="inline-block">
+      <li>
         <a
           aria-label="dribbble"
           href={dribbble}
@@ -269,7 +269,7 @@ const {
   }
   {
     behance && (
-      <li class="inline-block">
+      <li>
         <a
           aria-label="behance"
           href={behance}
@@ -283,7 +283,7 @@ const {
   }
   {
     pinterest && (
-      <li class="inline-block">
+      <li>
         <a
           aria-label="pinterest"
           href={pinterest}
@@ -297,7 +297,7 @@ const {
   }
   {
     soundcloud && (
-      <li class="inline-block">
+      <li>
         <a
           aria-label="soundcloud"
           href={soundcloud}
@@ -311,7 +311,7 @@ const {
   }
   {
     tumblr && (
-      <li class="inline-block">
+      <li>
         <a
           aria-label="tumblr"
           href={tumblr}
@@ -325,7 +325,7 @@ const {
   }
   {
     reddit && (
-      <li class="inline-block">
+      <li>
         <a
           aria-label="reddit"
           href={reddit}
@@ -339,7 +339,7 @@ const {
   }
   {
     vk && (
-      <li class="inline-block">
+      <li>
         <a
           aria-label="vk"
           href={vk}
@@ -353,7 +353,7 @@ const {
   }
   {
     whatsapp && (
-      <li class="inline-block">
+      <li>
         <a
           aria-label="whatsapp"
           href={whatsapp}
@@ -367,7 +367,7 @@ const {
   }
   {
     snapchat && (
-      <li class="inline-block">
+      <li>
         <a
           aria-label="snapchat"
           href={snapchat}
@@ -381,7 +381,7 @@ const {
   }
   {
     vimeo && (
-      <li class="inline-block">
+      <li>
         <a
           aria-label="vimeo"
           href={vimeo}
@@ -395,7 +395,7 @@ const {
   }
   {
     tiktok && (
-      <li class="inline-block">
+      <li>
         <a
           aria-label="tiktok"
           href={tiktok}
@@ -409,7 +409,7 @@ const {
   }
   {
     foursquare && (
-      <li class="inline-block">
+      <li>
         <a
           aria-label="foursquare"
           href={foursquare}
@@ -423,7 +423,7 @@ const {
   }
   {
     skype && (
-      <li class="inline-block">
+      <li>
         <a
           aria-label="skype"
           href={skype}
@@ -437,7 +437,7 @@ const {
   }
   {
     website && (
-      <li class="inline-block">
+      <li>
         <a
           aria-label="website"
           href={website}
@@ -451,7 +451,7 @@ const {
   }
   {
     rss && (
-      <li class="inline-block">
+      <li>
         <a
           aria-label="rss feed"
           href={rss}
@@ -465,7 +465,7 @@ const {
   }
   {
     email && (
-      <li class="inline-block">
+      <li>
         <a aria-label="email" href={`mailto:${email}`}>
           <IoMail />
         </a>
@@ -474,7 +474,7 @@ const {
   }
   {
     phone && (
-      <li class="inline-block">
+      <li>
         <a aria-label="telephone" href={`tel:${phone}`}>
           <IoCall />
         </a>
@@ -483,7 +483,7 @@ const {
   }
   {
     address && (
-      <li class="inline-block">
+      <li>
         <a
           aria-label="location"
           href={address}

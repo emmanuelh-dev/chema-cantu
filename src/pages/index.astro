@@ -8,6 +8,7 @@ import { sortByDate } from "@/lib/utils/sortFunctions";
 
 import Services from "@/layouts/home/Services.tsx";
 import About from "@/layouts/home/About.astro";
+import Header from "@/layouts/home/Header.astro";
 
 const posts = await getSinglePage("posts");
 const sortedPosts = sortByDate(posts);
@@ -16,6 +17,7 @@ const currentPosts = sortedPosts.slice(0, config.settings.pagination);
 ---
 
 <Base>
+  <Header />
   <About />
   <Services />
 </Base>

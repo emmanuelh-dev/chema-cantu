@@ -4,22 +4,22 @@ import { Image } from "astro:assets";
 ---
 
 <main>
-  <div class="px-4 py-8 md:py-16 flex flex-col md:flex-row items-center container mx-auto">
+  <div class="lg:flex items-center">
     <div class="md:w-1/2 mb-8 md:mb-0">
       <Image
-        src="/placeholder.svg"
+        src="/images/treatment.jpg"
         alt="FisioVite Treatment Room"
         width={600}
         height={400}
-        class="rounded-lg shadow-lg"
+        class="aspect-square w-full object-cover"
       />
     </div>
     <div class="md:w-1/2 md:pl-12">
       <h2 class="text-xl text-gray-600 mb-2">Acerca de</h2>
-      <h1 class="text-4xl font-bold mb-4 title">
+      <h1 class="text-6xl font-bold mb-4 title">
         <span class="text-[#4DC0B5] ">FisioVite</span> Centro de Fisioterapia y Rehabilitación
       </h1>
-      <p class="text-gray-600 mb-6">
+      <p class="text-gray-600 mb-6 text-lg">
         FisioVite es una clínica enfocada en fisioterapia y rehabilitación física en Monterrey, donde también ofrecemos tratamientos personalizados para cada paciente con ayuda de especialistas en rehabilitación física y utilizando tecnología de punta.
       </p>
       <Button className="bg-[#4DC0B5] hover:bg-[#38a89d] text-white">

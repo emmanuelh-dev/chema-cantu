@@ -20,7 +20,7 @@ export default function ClinicaSaludIntegral() {
                 </Button>
               </div>
               <div className="md:w-1/2">
-                <img src="/placeholder.svg?height=400&width=600" alt="Tecnología médica avanzada" className="rounded-lg shadow-2xl" />
+                <img src="/images/treatment.jpg" alt="Tecnología médica avanzada" className="rounded-lg shadow-2xl" />
               </div>
             </div>
           </div>
@@ -59,7 +59,7 @@ export default function ClinicaSaludIntegral() {
             <h2 className="text-3xl font-bold mb-12 text-center">Tecnología de Vanguardia</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
               <div>
-                <img src="/placeholder.svg?height=400&width=600" alt="Equipo médico avanzado" className="rounded-lg shadow-2xl" />
+                <img src="/images/treatment.jpg" alt="Equipo médico avanzado" className="rounded-lg shadow-2xl" />
               </div>
               <div>
                 <ul className="space-y-4">

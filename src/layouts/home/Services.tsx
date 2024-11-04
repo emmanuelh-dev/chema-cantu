@@ -89,19 +89,14 @@ export default function ClinicaSaludIntegral() {
     <div className="flex flex-col min-h-screen">
 
       <main className="flex-grow">
-        <section className="bg-gradient-to-b from-blue-500 to-cyan-500 text-white py-20">
-          <div className="container mx-auto px-4">
-            <div className="flex flex-col md:flex-row items-center">
+        <section className="bg-gradient-to-b from-blue-500 to-cyan-500 text-white">
+          <div>
+            <div className="flex flex-col md:flex-row items-center p-8">
               <div className="md:w-1/2 mb-10 md:mb-0">
-                <h2 className="text-4xl md:text-5xl font-bold mb-6 title">Revoluciona tu salud con VitaNova</h2>
-                <p className="text-xl mb-8">Descubre un nuevo nivel de atención médica integral. Combinamos tecnología de vanguardia con un enfoque holístico para tu bienestar.</p>
-                <Button size="lg" className="bg-white text-blue-500 hover:bg-blue-100">
-                  Agenda tu consulta <ArrowRight className="ml-2" />
-                </Button>
+                <h2 className="text-5xl md:text-6wxl font-bold mb-6 title">Fisioterapeuta en Monterrey</h2>
+                <p className="text-xl mb-8">Encuentranos en Monterrey o solicita un servicio de fisioterapia a domicilio y recupera tu movilidad y estabilidad.</p>
               </div>
-              <div className="md:w-1/2">
-                <img src="/images/treatment.jpg" alt="Tecnología médica avanzada" className="rounded-lg shadow-2xl" />
-              </div>
+              <img src="/images/1.jpg" className="md:w-1/2 w-full max-h-[40rem] object-cover" alt="Tecnología médica avanzada" />
             </div>
           </div>
         </section>

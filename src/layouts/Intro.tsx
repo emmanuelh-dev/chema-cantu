@@ -13,7 +13,7 @@ export default function Intro() {
 
   return (
     <div ref={container} className='h-screen overflow-hidden'>
-      <motion.div style={{ y }} className='relative h-full'>
+      <motion.div style={{ y }}>
         <header className="relative h-[calc(100vh-6rem)] flex items-center justify-center overflow-hidden">
           <div className="absolute inset-0 z-0">
             <img

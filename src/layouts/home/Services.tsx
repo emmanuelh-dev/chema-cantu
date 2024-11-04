@@ -71,12 +71,12 @@ export default function ClinicaSaludIntegral() {
             </div>
           </div>
         </section>
-        <section className="flex flex-col md:flex-row items-center max-sm:p-8">
+        <section className="flex flex-col md:flex-row items-center max-sm:p-8 bg-neutral-100">
           <img src="/images/1.jpg" className="md:w-1/3 w-full max-h-[60rem] object-cover" alt="Tecnología médica avanzada" />
           <div className=" w-2/3">
 
 
-            <div id="servicios" className="py-20 bg-gradient-to-b from-gray-50 to-white">
+            <div id="servicios" className="">
               <div className="container mx-auto px-4">
                 <div className="max-w-2xl mx-auto text-center mb-16">
                   <h2 className="text-4xl font-bold mb-4 text-gray-800 title">

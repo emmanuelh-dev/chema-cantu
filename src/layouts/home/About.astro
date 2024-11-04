@@ -1,30 +1,35 @@
 ---
-import { Button } from "@/components/ui/button";
-import { Image } from "astro:assets";
+import { Button } from '@/components/ui/button';
+import { Image } from 'astro:assets';
 ---
 
-<main class="px-4 py-12 lg:p-0">
-  <div class="flex flex-col-reverse md:flex-row items-center gap-4">
-    <div class="md:w-1/2 mb-8 md:mb-0">
+<main class='px-4 py-12 lg:p-0'>
+  <div class='flex flex-col-reverse md:flex-row items-center gap-4'>
+    <div class='md:w-1/2 mb-8 md:mb-0 w-full'>
       <Image
-        src="/images/main.jpg"
-        alt="FisioVite Treatment Room"
+        src='/images/main.jpg'
+        alt='FisioVite Treatment Room'
         width={600}
         height={400}
-        class="aspect-square w-full object-cover object-top"
+        class='aspect-square w-full object-cover object-top'
       />
     </div>
-    <div class="md:w-1/2 md:pl-12">
-      <h2 class="text-xl text-gray-600 mb-2">Acerca de</h2>
-      <h1 class="text-6xl font-bold mb-4 title">
-        <span class="text-[#4DC0B5] ">Chema Cantu</span> Fisioterapeuta y entrenador personal
-      </h1>
-      <p class="text-gray-600 mb-6 text-lg">
-        Tengo mas de 10 años de experiencia ayudando a personas a recuperar su movilidad. Un tratamiento personalizado, enfocado en su metas y su progreso para lograr sus objetivos y mejorar su salud.
-      </p>
-      <!-- <Button className="bg-[#4DC0B5] hover:bg-[#38a89d] text-white">
-        Conoce más
-      </Button> -->
+    <div class='md:w-1/2'>
+      <div class='pl-12'>
+        <h2 class='text-xl text-gray-600 mb-2'>Acerca de</h2>
+        <h1 class='text-6xl font-bold mb-4 title'>
+          <span class='text-[#4DC0B5]'>Chema Cantu</span> Fisioterapeuta y entrenador
+          personal
+        </h1>
+        <p class='text-gray-600 mb-6 text-lg'>
+          Tengo mas de 10 años de experiencia ayudando a personas a recuperar su
+          movilidad. Un tratamiento personalizado, enfocado en su metas y su
+          progreso para lograr sus objetivos y mejorar su salud.
+        </p>
+        <!-- <Button className="bg-[#4DC0B5] hover:bg-[#38a89d] text-white">
+          Conoce más
+          </Button> -->
+      </div>
     </div>
   </div>
 </main>

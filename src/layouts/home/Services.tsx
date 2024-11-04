@@ -71,51 +71,58 @@ export default function ClinicaSaludIntegral() {
             </div>
           </div>
         </section>
-        <section id="servicios" className="py-20 bg-gradient-to-b from-gray-50 to-white">
-          <div className="container mx-auto px-4">
-            <div className="max-w-2xl mx-auto text-center mb-16">
-              <h2 className="text-4xl font-bold mb-4 text-gray-800">
-                Recupera tu movilidad y tu salud
-              </h2>
-              <p className="text-gray-600">
-                Brindamos atención médica especializada con los más altos estándares de calidad
-              </p>
-            </div>
+        <section className="flex flex-col md:flex-row items-center max-sm:p-8">
+          <img src="/images/1.jpg" className="md:w-1/3 w-full max-h-[60rem] object-cover" alt="Tecnología médica avanzada" />
+          <div className=" w-2/3">
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {services.map((service, index) => (
-                <div
-                  key={index}
-                >
 
-                  {/* Content */}
-                  <div className="space-y-4">
-                    <h3 className="text-xl font-semibold text-gray-800 group-hover:text-gray-900">
-                      {service.title}
-                    </h3>
-                    <p className="text-gray-600 leading-relaxed">
-                      {service.description}
-                    </p>
-                    <span className="text-xl font-semibold text-gray-800 group-hover:text-gray-900">
-                      ${service.pricing}
-                    </span>
-                  </div>
-
-                  {/* Call to action */}
-                  <div className="mt-6 flex items-center text-primary font-medium opacity-0 group-hover:opacity-100 transition-all duration-300">
-                    <span className="mr-2">Más información</span>
-                    <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
-                  </div>
-
+            <div id="servicios" className="py-20 bg-gradient-to-b from-gray-50 to-white">
+              <div className="container mx-auto px-4">
+                <div className="max-w-2xl mx-auto text-center mb-16">
+                  <h2 className="text-4xl font-bold mb-4 text-gray-800 title">
+                    Recupera tu movilidad y tu salud
+                  </h2>
+                  <p className="text-gray-600">
+                    Brindamos atención médica especializada con los más altos estándares de calidad
+                  </p>
                 </div>
-              ))}
+
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                  {services.map((service, index) => (
+                    <div
+                      key={index}
+                      className=""
+                    >
+
+                      {/* Content */}
+                      <div className="space-y-4">
+                        <h3 className="text-xl font-semibold text-gray-800 group-hover:text-gray-900">
+                          {service.title}
+                        </h3>
+                        <p className="text-gray-600 leading-relaxed">
+                          {service.description}
+                        </p>
+                        <span className="text-xl font-semibold text-gray-800 group-hover:text-gray-900">
+                          ${service.pricing}
+                        </span>
+                      </div>
+
+                      {/* Call to action */}
+                      <div className="mt-6 flex items-center text-primary font-medium opacity-0 group-hover:opacity-100 transition-all duration-300">
+                        <span className="mr-2">Más información</span>
+                        <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
+                      </div>
+
+                    </div>
+                  ))}
+                </div>
+              </div>
             </div>
           </div>
         </section>
-
         <section id="testimonios" className="py-20 bg-gray-50">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold mb-12 text-center">Lo que dicen nuestros pacientes</h2>
+            <h2 className="text-3xl font-bold mb-12 text-center title">Lo que dicen nuestros pacientes</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {[
                 { name: "Laura S.", comment: "La atención en Chema es excepcional. Los médicos realmente se preocupan por tu bienestar integral." },

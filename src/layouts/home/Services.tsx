@@ -44,9 +44,9 @@ export default function ClinicaSaludIntegral() {
       <main className="flex-grow">
 
         <section className="bg-gradient-to-b from-blue-500 to-cyan-500 text-black">
-          <div className="flex lg:flex-row items-center">
-            <div className="md:w-1/2 mb-10 md:mb-0 pl-10">
-              <h2 className="text-5xl md:text-6xl font-bold mb-6 title text-white">Fisioterapeuta en Monterrey</h2>
+          <div className="flex flex-col lg:flex-row items-center">
+            <div className="md:w-1/2 py-10 md:mb-0 pl-10">
+              <h2 className="text-5xl md:text-6xl font-bold pb-6 title text-white">Fisioterapeuta en Monterrey</h2>
               <p className="text-xl mb-8 text-neutral-200">
                 Recupera tu bienestar y vuelve a sentirte en control. En Monterrey y a domicilio, te ofrecemos atención personalizada para aliviar el dolor, mejorar tu movilidad y devolver la estabilidad a tu vida. ¡No esperes más para empezar tu recuperación!
               </p>

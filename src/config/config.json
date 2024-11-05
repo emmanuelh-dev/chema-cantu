@@ -1,14 +1,15 @@
 {
   "site": {
-    "title": "Bookworm Light Astro | Blog Template",
+    "title": "Fisioterapia en Monterrey | Chema Cantu",
+    "description": "Encuentranos en Monterrey o solicita un servicio de fisioterapia a domicilio y recupera tu movilidad y estabilidad.",
     "base_url": "https://bookworm-light-astro.vercel.app",
     "base_path": "/",
     "trailing_slash": false,
-    "favicon": "/images/favicon.png",
+    "favicon": "/images/favicon.ico",
     "logo": "/images/logo.png",
     "logo_width": "200",
     "logo_height": "34",
-    "logo_text": "Bookworm Light"
+    "logo_text": "Chema Cantu"
   },
 
   "settings": {
@@ -24,7 +25,7 @@
 
   "params": {
     "contact_form_action": "#",
-    "copyright": "Copyright © 2023 a theme by [Themefisher](https://themefisher.com)"
+    "copyright": "Copyright © 2024 creado con ❤️ por [BysMax](https://bysmax.com)"
   },
 
   "contactinfo": {

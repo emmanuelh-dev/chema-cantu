@@ -70,6 +70,12 @@ const Column = ({images, y}: {images: string[], y: MotionValue<number>}) => {
     <motion.div
       className="column"
       style={{y}}
+      transition={{
+        type: "spring",
+        damping: 20,
+        stiffness: 100,
+        mass: 0.8
+      }}
       >
       {
         images.map( (src, i) => {

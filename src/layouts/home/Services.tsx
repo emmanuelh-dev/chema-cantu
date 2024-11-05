@@ -32,35 +32,12 @@ const services = [
   { icon: <Calendar />, title: "Ajuste quiropractico de cuerpo completo", description: "", pricing: 400 },
 ];
 
-const technologies = [
-  {
-    title: "Resonancia Magnética de Alta Resolución",
-    description: "Imágenes detalladas para diagnósticos precisos"
-  },
-  {
-    title: "Tomografía Computarizada 4D",
-    description: "Visualización avanzada en tiempo real"
-  },
-  {
-    title: "Sistemas de Monitoreo Cardíaco en Tiempo Real",
-    description: "Seguimiento continuo y alertas inmediatas"
-  },
-  {
-    title: "Plataforma de Telemedicina Integrada",
-    description: "Atención médica remota de calidad"
-  },
-  {
-    title: "Análisis Genético Personalizado",
-    description: "Medicina de precisión basada en tu ADN"
-  }
-];
-
 export default function ClinicaSaludIntegral() {
   return (
     <div className="flex flex-col min-h-screen">
 
       <main className="flex-grow">
-        <section className="bg-gradient-to-b from-blue-500 to-cyan-500 text-white">
+        <section className="bg-gradient-to-b from-blue-500 to-cyan-500 text-black">
           <div>
             <div className="flex flex-col md:flex-row items-center lg:pl-8 max-sm:p-8">
               <div className="md:w-1/2 mb-10 md:mb-0">
@@ -73,7 +50,7 @@ export default function ClinicaSaludIntegral() {
         </section>
         <section className="flex flex-col md:flex-row items-center max-sm:p-8 bg-neutral-100">
           <img src="/images/1.jpg" className="md:w-1/3 w-full max-h-[60rem] object-cover" alt="Tecnología médica avanzada" />
-          <div className=" w-2/3">
+          <div className=" lg:w-2/3">
 
 
             <div id="servicios" className="">
@@ -95,14 +72,14 @@ export default function ClinicaSaludIntegral() {
                     >
 
                       {/* Content */}
-                      <div className="space-y-4">
-                        <h3 className="text-xl font-semibold text-gray-800 group-hover:text-gray-900">
+                      <div className="space-y-4 h-full flex flex-col justify-between">
+                        <div>                        <h3 className="text-xl font-semibold text-gray-800 group-hover:text-gray-900">
                           {service.title}
                         </h3>
-                        <p className="text-gray-600 leading-relaxed">
-                          {service.description}
-                        </p>
-                        <span className="text-xl font-semibold text-gray-800 group-hover:text-gray-900">
+                          <p className="text-gray-600 leading-relaxed">
+                            {service.description}
+                          </p></div>
+                        <span className="text-2xl font-bold text-gray-800 group-hover:text-gray-900">
                           ${service.pricing}
                         </span>
                       </div>

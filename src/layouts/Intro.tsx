@@ -30,14 +30,20 @@ export default function Intro() {
               className="w-full h-full object-cover object-center filter brightness-50"
             />
           </div>
-          <div className="relative z-10 text-center text-black px-4 text-balance">
-            <p className="text-4xl xl:text-6xl md:text-6xl font-bold mb-4 title text-white">
-              Camino a tu recuperación
+          <div className="relative z-10 text-center text-white px-4 text-balance">
+            <p className="text-4xl xl:text-6xl md:text-6xl font-bold mb-4 title">
+              Recupera tu vida sin dolor
             </p>
-            <h1 className="text-xl md:text-2xl mb-8 text-white/60">
-              Chema Cantu Fisioterapeuta y entrenador personal
+            <h1 className="text-xl md:text-2xl mb-8 text-white/80">
+              Atención de fisioterapia en Monterrey y en la comodidad de tu hogar
             </h1>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
+              {/* <button className="px-6 py-3 mt-4 bg-blue-500 text-white font-bold rounded-lg shadow-md hover:bg-blue-600 transition">
+                Agenda tu consulta
+              </button>
+              <button className="px-6 py-3 mt-4 bg-white text-blue-500 font-bold rounded-lg shadow-md hover:bg-blue-50 transition">
+                Conoce nuestros servicios
+              </button> */}
             </div>
           </div>
         </header>

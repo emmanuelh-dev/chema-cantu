@@ -1,11 +1,11 @@
 {
   "main": [
     {
-      "name": "Home",
+      "name": "Inicio",
       "url": "/"
     },
     {
-      "name": "About",
+      "name": "Sobre Mí",
       "url": "/about"
     },
     {
@@ -13,25 +13,25 @@
       "url": "/entrenador-personal"
     },
     {
-      "name": "Contact",
+      "name": "Contacto",
       "url": "/contact"
     }
   ],
   "footer": [
     {
-      "name": "About",
+      "name": "Sobre Mí",
       "url": "/about"
     },
     {
-      "name": "Contact",
+      "name": "Contacto",
       "url": "/contact"
     },
     {
-      "name": "Elements",
+      "name": "Elementos",
       "url": "/elements"
     },
     {
-      "name": "Privacy Policy",
+      "name": "Política de Privacidad",
       "url": "/privacy-policy"
     }
   ]

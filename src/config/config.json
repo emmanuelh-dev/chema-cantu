@@ -2,7 +2,7 @@
   "site": {
     "title": "Fisioterapia en Monterrey | Chema Cantu",
     "description": "Encuentranos en Monterrey o solicita un servicio de fisioterapia a domicilio y recupera tu movilidad y estabilidad.",
-    "base_url": "https://bookworm-light-astro.vercel.app",
+    "base_url": "https://chema-cantu.bysmax.com",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.ico",

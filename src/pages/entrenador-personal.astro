@@ -9,9 +9,9 @@ import Base from '@/layouts/Base.astro';
       class='bg-cover bg-no-repeat bg-gray-400 bg-blend-multiply'
       style="background-image:url('/images/hero-fitness-image.jpg')"
     >
-      <div class='px-4 mx-auto max-w-screen-xl text-center py-36 text-black'>
+      <div class='px-4 mx-auto max-w-screen-xl text-center py-36 text-white'>
         <h1
-          class='font-extrabold title text-4xl lg:text-9xl tracking-wide mb-4 uppercase text-black'
+          class='font-extrabold title text-4xl lg:text-9xl tracking-wide mb-4 uppercase text-white'
         >
           Alcanza tu mejor versión
         </h1>
@@ -22,36 +22,23 @@ import Base from '@/layouts/Base.astro';
     </header>
 
     <section class='py-12'>
-      <div class='grid lg:grid-cols-2 p-4 mx-auto max-w-screen-xl'>
+      <div class='grid lg:grid-cols-2 p-4 mx-auto max-w-screen-xl items-center'>
         <div>
           <h2 class='text-5xl max-w-xs yellowText pb-8 title'>
             Sobre mi
           </h2>
-          <p class='text-black max-w-sm'>
-            Mi nombre es Chema Cantú Personal Trainer, y soy un entrenador personal con una trayectoria de mas de 10 años. Hemos ayudado a personas de todas las edades a lograr sus metas de salud y bienestar. Aquí no solo entrenas, sino que encuentras apoyo y orientación en cada paso de tu camino.
+          <p class='text-white max-w-sm mb-6'>
+            Mi nombre es Chema Cantú, y soy un entrenador personal con una trayectoria de mas de 10 años. Ayudo a personas de todas las edades a lograr sus metas de salud y bienestar. Aquí no solo entrenas, sino que encuentras apoyo y orientación en cada paso de tu camino.
           </p>
-          <p class='text-black mt-8 underline'><a href='/'>Conoce más</a></p>
+          <a href='/' class='bg-white p-3 font-medium'>Contáctar</a>
         </div>
-        <div class='grid grid-cols-2 max-sm:mt-12'>
-          <img
-            src='/images/gym-instructor.jpg'
-            alt='Entrenador personal'
-            class='rounded-md object-cover w-48'
-            width='600'
-            height='400'
-            loading='lazy'
-            decoding='async'
-          />
-          <img
-            src='/images/gym-femaleinstructor.jpg'
-            alt='Entrenadora personal'
-            class='rounded-md object-cover w-48 pt-8'
-            width='600'
-            height='400'
-            loading='lazy'
-            decoding='async'
-          />
-        </div>
+        <img
+        src='/images/main.jpg'
+        alt='Entrenador personal'
+        class='rounded-md object-cover w-48 aspect-square object-top w-full'
+        loading='lazy'
+        decoding='async'
+      />
       </div>
     </section>
 
@@ -59,7 +46,7 @@ import Base from '@/layouts/Base.astro';
       <h1 class='yellowText text-3xl lg:text-5xl title uppercase'>
         Lo que podemos hacer por ti
       </h1>
-      <p class='text-black'>
+      <p class='text-white'>
         Estamos aquí para diseñar un plan a tu medida y acompañarte en tu
         progreso
       </p>
@@ -68,7 +55,7 @@ import Base from '@/layouts/Base.astro';
           class='py-48 bg-cover bg-center m-8 bg-gray-700 bg-blend-multiply'
           style='background-image:url(/images/personal-trainer.jpg)'
         >
-          <h2 class='text-black uppercase text-3xl lg:text-4xl italic'>
+          <h2 class='text-white uppercase text-3xl lg:text-4xl italic'>
             Entrenamiento Personalizado
           </h2>
         </div>
@@ -76,7 +63,7 @@ import Base from '@/layouts/Base.astro';
           class='py-48 bg-cover bg-center m-8 bg-gray-700 bg-blend-multiply'
           style='background-image:url(/images/pesas.jpg)'
         >
-          <h2 class='text-black uppercase text-3xl lg:text-4xl italic'>
+          <h2 class='text-white uppercase text-3xl lg:text-4xl italic'>
             Seguimiento y Apoyo Constante
           </h2>
         </div>
@@ -84,7 +71,7 @@ import Base from '@/layouts/Base.astro';
           class='py-48 bg-cover bg-center m-8 bg-gray-700 bg-blend-multiply'
           style='background-image:url(/images/doctor.jpg)'
         >
-          <h2 class='text-black uppercase text-3xl lg:text-4xl italic'>
+          <h2 class='text-white uppercase text-3xl lg:text-4xl italic'>
             Seguimiento y Apoyo Constante
           </h2>
         </div>
@@ -163,7 +150,7 @@ import Base from '@/layouts/Base.astro';
               <a
                 href='https://wa.me/528124928892'
                 target='_blank'
-                class='text-black bg-black py-3 px-4 mt-4'>Haz click aquí</a
+                class='text-black bg-white py-3 px-4 mt-4'>Haz click aquí</a
               >
             </div>
           </div>

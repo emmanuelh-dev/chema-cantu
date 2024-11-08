@@ -43,14 +43,14 @@ export default function ClinicaSaludIntegral() {
 
       <main className="flex-grow">
 
-        <section className="bg-gradient-to-b from-blue-500 to-cyan-500 text-black">
+        <section className="bg-primary text-black">
           <div className="flex flex-col lg:flex-row items-center">
             <div className="md:w-1/2 py-10 md:mb-0 pl-10">
               <h2 className="text-5xl md:text-6xl font-bold pb-6 title text-white">Fisioterapeuta en Monterrey</h2>
-              <p className="text-xl mb-8 text-neutral-200">
+              <p className="text-xl mb-8 text-neutral-100">
                 Recupera tu bienestar y vuelve a sentirte en control. En Monterrey y a domicilio, te ofrecemos atención personalizada para aliviar el dolor, mejorar tu movilidad y devolver la estabilidad a tu vida. ¡No esperes más para empezar tu recuperación!
               </p>
-              <a href="/contact" className="px-6 py-3 mt-4 bg-white text-blue-500 font-bold rounded-lg shadow-md hover:bg-blue-50 transition">
+              <a href="/contact" className="px-6 py-3 mt-4 text-black bg-white ">
                 Agenda tu sesión hoy
               </a>
             </div>
@@ -92,7 +92,7 @@ export default function ClinicaSaludIntegral() {
                           ${service.pricing}
                         </span>
                         <a href="/contact" className="mt-6 flex items-center">
-                          <span className="mr-2">Contactar ahora</span>
+                          <span className="mr-2">Contáctar ahora</span>
                           <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
                         </a>
                       </div>
@@ -104,7 +104,7 @@ export default function ClinicaSaludIntegral() {
           </div>
         </section>
 
-        <section id="testimonios" className="py-20 bg-gray-50">
+        <section id="testimonios" className="py-20 bg-neutral-100">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold mb-12 text-center title">Lo que dicen nuestros pacientes</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
